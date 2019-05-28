@@ -1,9 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var ObjectID = require('mongodb').ObjectID;
 var artistsController = require('./controllers/artists');
-
 var db = require("./db");
+
 var app = express();
 
 app.use(bodyParser.json());
